@@ -1,0 +1,87 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+}
+
+.main1 {
+  display: flex;
+  height: 89vh;
+}
+
+/* .sidebar {
+  width: 200px;
+  flex-shrink: 0;
+  background-color: rgb(224, 221, 216);
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar-nav {
+  text-decoration: none;
+} */
+
+/* Sidebar container */
+.sidebar {
+  height: 100%;
+  /* overflow: auto; */
+  /* margin-top: 82.3px; */
+  /* width: 230px; */
+  width: 15vw;
+  top: 0;
+  left: 0;
+  background-color: #343a40;
+  padding-top: 20px;
+  transition: width 0.3s ease;
+  flex-shrink: 0;
+}
+
+/* Sidebar links (ul and li) */
+.sidebar-nav {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar-li {
+  padding: 15px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  transition: background 0.3s ease;
+}
+
+/* Hover effect for the sidebar links */
+.sidebar-li:hover {
+  background-color: #495057;
+  cursor: pointer;
+}
+
+/* Make the text centered */
+.sidebar-li {
+  text-align: left;
+}
+
+.bi {
+  margin-right: 15px;
+}
+.bi1 {
+  margin-left: 60px;
+}
+
+/* Media Query for responsiveness */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 200px;
+  }
+}
+
+.container1 {
+  width: 100vw;
+}
